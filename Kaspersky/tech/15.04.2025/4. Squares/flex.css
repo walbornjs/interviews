@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column; /* Вертикальное расположение */
+  flex-wrap: wrap;
+}
+
+.red, .blue {
+  flex-basis: 50%; 
+}
+
+.gray {
+  flex-basis: 100%;
+}

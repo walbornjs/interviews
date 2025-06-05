@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  grid-template-areas: "r g""b g";
+}
+
+.red {
+  grid-area: r;
+}
+
+.blue {
+  grid-area: b;
+}
+
+.gray {
+  grid-area: g;
+}
+
+ /* 2 вариант */
+
+/* .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; // две колонки равной ширины
+  grid-template-rows: 1fr 1fr;    // два ряда равной высоты
+  height: 100vh;                  // или другая высота
+}
+
+.red {
+  grid-row: 1;      // первый ряд
+  grid-column: 1;   // первая колонка
+}
+
+.blue {
+  grid-row: 2;      // второй ряд
+  grid-column: 1;   // первая колонка
+}
+
+.gray {
+  grid-row: 1 / 3;  // от первого до третьего ряда (полная высота)
+  grid-column: 2;   // вторая колонка
+}  */
